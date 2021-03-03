@@ -98,8 +98,6 @@
 					<includes>
 						<include>**/*TestRunner.java</include>
 					</includes>
-					<parallel>methods</parallel>
-					<useUnlimitedThreads>true</useUnlimitedThreads>
 				</configuration>
 			</plugin>
 			<plugin>

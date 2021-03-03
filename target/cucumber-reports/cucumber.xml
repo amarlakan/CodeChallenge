@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="18.115">
+    <testcase classname="validation of homepage elements" name="Validate if desired elements present in homepage" time="17.953">
+        <system-out><![CDATA[Given User entered valid url autotrader.com.................................passed
+When user landed on homepage................................................passed
+Then validate desired elements in homepage..................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

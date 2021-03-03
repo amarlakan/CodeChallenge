@@ -1,0 +1,28 @@
+QA Automation Code Challenge Requirements
+• Place your code in a GitHub repo that we can clone
+• Use Selenium Webdriver with Java (or a language of your choice)
+• Use BDD framework of your choice
+• Use TestNG or JUnit as your underlying testing library; either is fine
+Coding Exercise:
+Using Chrome browser for your automation, go to www.autotrader.com and automate the following steps.
+• On the home page, verify that the following types of elements are present: o Links: Browse by Make, Browse by Style, Advanced Search
+o Buttons: Search
+o Drop downs: Make, Model
+
+
+• Click on the ‘Advanced Search’ link on the home page and do the following: 
+o Enter 30004 in the ‘Zip code’ text box
+o Select the ‘Certified’ check box under ‘Condition’
+o Select the ‘Convertible’ check box under ‘Style’
+o Update the ‘Year’ drop down menus as follows: select 2017 as From year and select 2020 as To year
+o Select Make as ‘BMW’ under Make, Model & Trim section
+• Click the button ‘Search’ at the bottom of the page
+• You will see some results/listings in the next page
+• Assert that you see only BMW cars in the results page
+• Log to the console, the total number of cars/listings you see in the results page
+What We're Looking For
+What's your style? How do you approach this project? Expect that the initial interview will involve talking about the choices you made.
+How do you want the output to look - if you have a lot of time and want to show off your reporting skills, feel free to do so. Have less time? Print out the data/results that we are looking for directly to the console and indicate whether your tests were successful or not - this isn't about scoring bonus points with us, it's about showing us you know the bare minimum and giving us something to chat about during the subsequent interview.
+ 
+How long will this take - that totally depends on you. We think an estimate for something like above will be about 45 - 60 minutes. Doing above and beyond is on you.
+If you have questions - please feel free to reach out to us through the recruiter and ask! We're a collaborative team and would be happy to discuss the challenge and clarify anything for you.
